@@ -14,4 +14,4 @@ def load_packages(filename):
 def save_packages(filename, packages):
     """Save packages to a JSON file."""
     with open(filename, 'w') as file:
-        json.dump(packages, file) 
+        json.dump(packages, file, indent=4) 
