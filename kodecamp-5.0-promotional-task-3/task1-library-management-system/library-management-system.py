@@ -35,7 +35,7 @@ class Book:
 class Library:
     def __init__(self, filename='books.json'):
         self.filename = filename
-        self.books = [Book.from_dict(b) for b in load_books(self.filename)]
+        self.books = [Book.from_dict(b) for b in load_books(self.filename)] # Load existing books from file
     def add_book(self, title, author):
         self.books.append(Book(title, author))
         print(f"A new book titled \"{title}\", by \"{author}\" has been added.")
@@ -57,6 +57,7 @@ class Library:
         count = 0
         if not self.books:
             print("books not available.")
+            return
         for book in self.books:
             count += 1
             status = "Available" if book.available else "Borrowed"
@@ -69,13 +70,12 @@ def main():
     lib = Library()
 
     while True:
-        print()
-        print("Welcome to the Library Management System!")
-        print("1. add a new book")
-        print("2. borrow a book")
-        print("3. return a book")
-        print("4. view all books")
-        print("5. save and exit")
+        print("\nWelcome to the Library Management System!")
+        print("1. Add a new book")
+        print("2. Borrow a book")
+        print("3. Return a book")
+        print("4. View all books")
+        print("5. Save and exit")
         option = int(input("Please select your option: "))
 
         if (option == 1):
