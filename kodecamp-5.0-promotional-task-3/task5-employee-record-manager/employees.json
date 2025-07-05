@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Hammed Bankole",
+        "emp_id": "23451",
+        "department": "IT",
+        "salary": 10000.0
+    },
+    {
+        "name": "Lawal Adekunle",
+        "emp_id": "56478",
+        "department": "Finance",
+        "salary": 50300.0
+    }
+]
