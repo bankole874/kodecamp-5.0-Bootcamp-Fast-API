@@ -27,6 +27,7 @@ python billing-system-for-small-shop.py
 ## 📝 Example Usage
 
 1. Add products to the cart
-2. View your cart and see if a discount is applied
+2. View your cart
+3. Apply discount
 3. Save the bill and it will be stored in `bills.json`
 4. View all past bills using the menu

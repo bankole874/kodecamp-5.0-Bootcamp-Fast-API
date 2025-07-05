@@ -15,6 +15,7 @@
 
 import math
 from billing import load_entries, save_entries
+from datetime import datetime
 
 class Product:
     def __init__(self, name, price, quantity):
@@ -22,6 +23,8 @@ class Product:
         self.price = price
         self.quantity = quantity
         self.total = math.ceil(self.price * self.quantity)
+        self.date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
     def to_dict(self):
         return {
             'name': self.name,
@@ -32,7 +35,11 @@ class Product:
     
     @classmethod
     def from_dict(cls, data):
-        return cls(data['name'], data['price'], data['quantity'])  
+        return cls(
+            name=data['name'],
+            price=data['price'],
+            quantity=data['quantity']
+        ) 
 
 class Cart:
     def __init__(self):
@@ -65,12 +72,18 @@ class Cart:
             print("No discount applied. Total is less than N10,000 or discount already applied.")
 
     def save_and_exit(self):
-        bill_data = {
+        if not self.products:
+            print("No products in cart to save.")
+            return
+        
+        entry = {
+            'date': datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
             'products': [product.to_dict() for product in self.products],
             'total': self.total,
             'discount_applied': self.discount_applied
         }
-        self.bill_history.append(bill_data)
+        
+        self.bill_history.append(entry)
         save_entries(self.bill_history)
         print("Bill saved successfully. Exiting the app.")
     

@@ -1,0 +1,21 @@
+[
+    {
+        "date": "2025-07-05 16:46:52",
+        "products": [
+            {
+                "name": "HP probook laptop",
+                "price": 550000.0,
+                "quantity": 1,
+                "total": 550000
+            },
+            {
+                "name": "notebook",
+                "price": 500.0,
+                "quantity": 10,
+                "total": 5000
+            }
+        ],
+        "total": 555000,
+        "discount_applied": false
+    }
+]
