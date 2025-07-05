@@ -47,7 +47,11 @@ No external dependencies required.
 
 ```json
 [
-    ["uuid", "sender", "recipient", "status"]
+    [
+        "uuid",
+        "sender",
+        "recipient",
+        "status"]
 ]
 ```
 
@@ -55,6 +59,10 @@ Example:
 
 ```json
 [
-    ["7e59d95a-6e9f-4c12-8fa9-1b02f45d7a78", "Chinedu", "Amina", "Delivered"]
+    [
+        "7e59d95a-6e9f-4c12-8fa9-1b02f45d7a78",
+        "Chinedu",
+        "Amina",
+        "Delivered"]
 ]
 ```
