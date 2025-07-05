@@ -14,18 +14,6 @@ A simple Python-based console application to manage and track package deliveries
 
 ---
 
-### 🗂 Project Structure
-
-```
-.
-├── package-delivery-system.py   # Main application file
-├── delivery_utils.py            # File operations for saving/loading packages
-├── packages.json                # JSON data file (auto-created or loaded)
-└── README.md                    # Project documentation
-```
-
----
-
 ### 🛠 Requirements
 
 * Python 3.6 or higher
