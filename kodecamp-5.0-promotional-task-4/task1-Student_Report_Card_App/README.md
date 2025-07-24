@@ -24,7 +24,7 @@ The application stores student data in a JSON file for persistence.
 
 ### **1. Clone the Repository**
 ```bash
-git clone [<your-repo-url>](https://github.com/bankole874/kodecamp-5.0-Bootcamp-Fast-API)
+git clone https://github.com/bankole874/kodecamp-5.0-Bootcamp-Fast-API.git
 cd /kodecamp-5.0-promotional-task-4/task1-Student_Report_Card_App/
 ````
 
