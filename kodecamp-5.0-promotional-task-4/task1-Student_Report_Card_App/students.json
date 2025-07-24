@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Hammed Bankole",
+        "subjects": {
+            "ARM": 99.0,
+            "APIM": 87.0,
+            "ACS": 79.0,
+            "BS": 90.0
+        }
+    },
+    {
+        "name": "Precious Yakubu",
+        "subjects": {
+            "ARM": 67.0,
+            "APIM": 90.0,
+            "ACS": 88.0,
+            "BS": 91.0
+        }
+    },
+    {
+        "name": "Blessing Ihejirika",
+        "subjects": {
+            "APIM": 89.0,
+            "ARM": 98.0,
+            "ACS": 87.0,
+            "BS": 90.0
+        }
+    }
+]
