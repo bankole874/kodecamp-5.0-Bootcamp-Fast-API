@@ -79,19 +79,3 @@ When making changes, follow commit message guidelines:
 * Add Student class and JSON save feature
 * Fix average score calculation
 ```
-
----
-
-## **Future Improvements**
-
-* Add support for deleting students.
-* Add GPA calculation.
-* Improve user interface with color formatting.
-* Add unit tests for core functions.
-
-```
-
----
-
-Would you like me to **generate this `README.md` file in your current directory** and give you the content as a downloadable file?
-```
