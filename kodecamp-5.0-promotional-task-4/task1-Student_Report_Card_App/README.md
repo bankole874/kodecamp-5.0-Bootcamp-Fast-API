@@ -68,13 +68,7 @@ Student Report Card App
 
 * All student data is stored in `students.json` (auto-created in the project directory).
 * You can delete `students.json` to reset all data.
-
----
-
-## **Version Control with Git**
-
-When making changes, follow commit message guidelines:
-
+* 
 ```
 * Add Student class and JSON save feature
 * Fix average score calculation
