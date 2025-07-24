@@ -20,26 +20,12 @@ The application stores student data in a JSON file for persistence.
 
 ---
 
-## **Project Structure**
-```
-
-.
-├── Student\_report\_card\_app.py   # Main application script
-├── report\_util.py               # JSON save/load utility functions
-├── student.py                   # Student class (recommended)
-├── students.json                # Data file (auto-created)
-└── README.md                    # Project documentation
-
-````
-
----
-
 ## **Installation and Setup**
 
 ### **1. Clone the Repository**
 ```bash
-git clone <your-repo-url>
-cd <your-project-folder>
+git clone [<your-repo-url>](https://github.com/bankole874/kodecamp-5.0-Bootcamp-Fast-API)
+cd /kodecamp-5.0-promotional-task-4/task1-Student_Report_Card_App/
 ````
 
 ### **2. Create a Virtual Environment (Optional but Recommended)**
