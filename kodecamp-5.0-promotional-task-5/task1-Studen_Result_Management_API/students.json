@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Hammed Bankole",
+        "subject_scores": {
+            "additionalProp1": 90.0,
+            "additionalProp2": 90.0,
+            "additionalProp3": 90.0
+        },
+        "average": 90.0,
+        "grade": "A"
+    },
+    {
+        "name": "Damilare Johnson",
+        "subject_scores": {
+            "additionalProp1": 90.0,
+            "additionalProp2": 90.0,
+            "additionalProp3": 90.0
+        },
+        "average": 90.0,
+        "grade": "A"
+    },
+    {
+        "name": "Blessing Ihejirika",
+        "subject_scores": {
+            "additionalProp1": 87.0
+        },
+        "average": 87.0,
+        "grade": "B"
+    }
+]
