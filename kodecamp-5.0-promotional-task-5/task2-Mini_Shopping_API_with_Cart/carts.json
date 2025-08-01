@@ -1,0 +1,20 @@
+[
+    {
+        "op": "remove",
+        "path": "/products/0/name"
+    },
+    {
+        "op": "add",
+        "path": "/products/0/name",
+        "value": "Updated Product Name"
+    },
+    {
+        "op": "remove",
+        "path": "/products/1/price"
+    },
+    {
+        "op": "add",
+        "path": "/products/1/price",
+        "value": 19.99
+    }
+]
