@@ -26,5 +26,15 @@
         },
         "average": 87.0,
         "grade": "B"
+    },
+    {
+        "name": "Mayokun Abdulquadri",
+        "subject_scores": {
+            "Maths": 67.0,
+            "Computer": 34.0,
+            "Geography": 80.0
+        },
+        "average": 60.333333333333336,
+        "grade": "D"
     }
 ]
