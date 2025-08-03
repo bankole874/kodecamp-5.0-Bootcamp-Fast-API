@@ -18,19 +18,6 @@ A FastAPI-based RESTful API to create, read, update, and delete notes saved as `
 
 ---
 
-## 📁 Directory Structure
-
-```
-
-notes\_app/
-├── main.py
-├── notes/              # Where notes are saved as .txt files
-└── README.md
-
-````
-
----
-
 ## 📦 Requirements
 
 - Python 3.8+
