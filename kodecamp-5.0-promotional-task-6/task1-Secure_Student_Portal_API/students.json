@@ -1,0 +1,29 @@
+{
+    "hbankole": {
+        "username": "hbankole",
+        "password": "5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5",
+        "grades": [
+            90,
+            89,
+            72
+        ]
+    },
+    "pbaby": {
+        "username": "pbaby",
+        "password": "889655b9ca2c69ad2fcf8b0b91571cd5502101b4254d5e5b7da443b40d7ccf6f",
+        "grades": [
+            70,
+            70,
+            72
+        ]
+    },
+    "alice": {
+        "username": "alice",
+        "password": "89e01536ac207279409d4de1e5253e01f4a1769e696db0d6062ca9b8f56767c8",
+        "grades": [
+            95,
+            88,
+            92
+        ]
+    }
+}
