@@ -1,21 +1,22 @@
-from fastapi import FastAPI, HTTPException, status
+from fastapi import Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordBearer
-from typing import Optional
 
-dummy_users_db  = {
+dummy_users_db = {
     "admin-token": {"username": "admin", "role": "admin"},
     "customer-token": {"username": "customer", "role": "customer"},
 }
 
-oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token") # Dependency for token authentication
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
 
-class User:
+
+class User:  # Plain class (not Pydantic)
     def __init__(self, username: str, role: str):
         self.username = username
         self.role = role
 
-# Function to get the current user based on the token
-def get_current_user(token: str = oauth2_scheme) -> User:
+
+# ✅ must use Depends here
+def get_current_user(token: str = Depends(oauth2_scheme)) -> User:
     user_data = dummy_users_db.get(token)
     if not user_data:
         raise HTTPException(
@@ -24,8 +25,8 @@ def get_current_user(token: str = oauth2_scheme) -> User:
         )
     return User(username=user_data["username"], role=user_data["role"])
 
-# Function to check if the current user is an admin
-def admin_required(current_user: User = get_current_user) -> User:
+
+def admin_required(current_user: User = Depends(get_current_user)) -> User:
     if current_user.role != "admin":
         raise HTTPException(
             status_code=status.HTTP_403_FORBIDDEN,
