@@ -24,6 +24,7 @@ def get_current_user(token: str = oauth2_scheme) -> User:
         )
     return User(username=user_data["username"], role=user_data["role"])
 
+# Function to check if the current user is an admin
 def admin_required(current_user: User = get_current_user) -> User:
     if current_user.role != "admin":
         raise HTTPException(
