@@ -80,4 +80,3 @@ def delete_student(student_id: int, session: Session = Depends(get_session), cur
     session.delete(student)
     session.commit()
     return None
-
