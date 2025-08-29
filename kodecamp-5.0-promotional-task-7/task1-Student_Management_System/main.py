@@ -37,4 +37,3 @@ app.include_router(students.router)
 @app.on_event("startup")
 def on_startup():
     init_db()
-
