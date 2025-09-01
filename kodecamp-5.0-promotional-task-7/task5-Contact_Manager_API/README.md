@@ -4,6 +4,10 @@ A **Contact Management System** built with **FastAPI**, **SQLModel**, and **JWT 
 
 ---
 
+<img width="901" height="611" alt="image" src="https://github.com/user-attachments/assets/e94dbda0-98a4-473f-a9e8-0b5951133339" />
+
+---
+
 ## 🚀 Features
 - **User Authentication**
   - Register new users
@@ -20,9 +24,6 @@ A **Contact Management System** built with **FastAPI**, **SQLModel**, and **JWT 
 - **Middleware**
   - Logs client IP address for each request
 - **CORS enabled** (for frontend integration)
-
----
-
 
 ---
 
@@ -116,3 +117,4 @@ At startup, a demo user is created automatically:
   - Use a secure `SECRET_KEY` from environment variables
   - Restrict **CORS origins**
   - Run behind HTTPS
+
