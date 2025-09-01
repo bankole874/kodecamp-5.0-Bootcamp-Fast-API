@@ -9,6 +9,8 @@ A simple **Notes Management API** built with **FastAPI** and **SQLModel**, featu
 - Middleware to count and log all incoming requests.
 - CORS enabled for multiple frontends.
 
+---
+
 <img width="849" height="601" alt="image" src="https://github.com/user-attachments/assets/55cd3e6d-7a09-4884-827b-2f8eadbffbea" />
 
 ---
