@@ -3,6 +3,8 @@
 
 A simple **FastAPI backend** for managing students and their grades with **authentication, authorization, database, and request logging**.
 
+---
+
 <img width="835" height="619" alt="image" src="https://github.com/user-attachments/assets/71d1da80-a8f6-4fa0-9f55-74e06b65be21" />
 
 ---
@@ -165,5 +167,6 @@ http://localhost:3000
 * Add more fields to `Student` model (e.g., subjects, GPA, etc.)
 * Implement pagination for student list
 * Add role-based access (admin vs. normal user)
+
 
 
