@@ -7,6 +7,8 @@ A modular **FastAPI** project implementing a simple **E-Commerce API** with:
 - Middleware to measure response time
 - Orders backed up to `orders.json`
 
+---
+
 <img width="958" height="654" alt="image" src="https://github.com/user-attachments/assets/ad3d7b44-74dd-4cb4-a527-58e8f48dbf07" />
 
 ---
@@ -184,3 +186,4 @@ curl http://127.0.0.1:8000/products/
 curl -X POST "http://127.0.0.1:8000/cart/checkout/" \
   -H "Authorization: Bearer <ALICE_TOKEN>"
 ```
+
