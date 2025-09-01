@@ -5,6 +5,8 @@ A simple **Job Application Tracker API** built with **FastAPI** and **SQLModel**
 It allows users to track job applications, search by status, and ensures **per-user isolation** with authentication.  
 All requests require a **User-Agent header**.
 
+---
+
 <img width="895" height="855" alt="image" src="https://github.com/user-attachments/assets/9c2e4ec8-e305-42bc-b09c-a5c5656e2fd9" />
 
 ---
@@ -180,3 +182,4 @@ If you send a request **without `User-Agent` header**, you’ll get:
 * Replace the demo token-based auth in `deps.py` with a real authentication system (OAuth2/JWT) for production use.
 * You can easily extend `/applications/search` with more filters (company, date ranges, etc.).
 * SQLite is used for simplicity; switch to PostgreSQL/MySQL in production.
+
