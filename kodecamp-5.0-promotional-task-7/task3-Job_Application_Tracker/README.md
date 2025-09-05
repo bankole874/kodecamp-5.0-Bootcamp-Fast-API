@@ -36,7 +36,6 @@ All requests require a **User-Agent header**.
    ```bash
    git clone https://github.com/bankole874/kodecamp-5.0-Bootcamp-Fast-API
    cd kodecamp-5.0-Bootcamp-Fast-API/kodecamp-5.0-promotional-task-7/task3-Job_Application_Tracker
-````
 
 2. Create and activate a virtual environment:
 
@@ -182,4 +181,5 @@ If you send a request **without `User-Agent` header**, you’ll get:
 * Replace the demo token-based auth in `deps.py` with a real authentication system (OAuth2/JWT) for production use.
 * You can easily extend `/applications/search` with more filters (company, date ranges, etc.).
 * SQLite is used for simplicity; switch to PostgreSQL/MySQL in production.
+
 
